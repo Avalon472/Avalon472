@@ -1,4 +1,11 @@
-## Hi there 👋
+## Hi, I'm Michael
+
+I'm a Computer Science major and Senior Student IT Technician with a passion for technology and problem-solving. Currently, I'm focused on expanding my skills in full-stack development as I work through the [Odin Project](https://www.theodinproject.com/), where I’m building a strong foundation in both front-end and back-end web development. 
+
+Always eager to learn, I'm excited to apply my experience and continue growing as a developer in an ever-evolving field.
+
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/michael-jakob-374819337/)
+
 
 <!--
 **Avalon472/Avalon472** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
