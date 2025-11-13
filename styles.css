@@ -1,13 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 :root{
-    --cardBackground: black;
+    --cardBackground: rgba(0,0,0,0.7);
     --unit: 20px;
+    --navBarColor: rgba(114, 107, 107, 0.418);
 }
 body{
     background-color: rgb(65, 65, 65);
+    margin: 0px;
 }
 *{
     color: white;
+    transition: all 0.3s ease-in-out;
 }
 html{
     font-size: var(--unit);
@@ -31,6 +34,10 @@ html{
     background-color: var(--cardBackground);
     border-radius: 20px;
 }
+.card:hover{
+    box-shadow: 0 0 50px 2px purple;
+    scale: 1.025;
+}
 
 .width90{
     width: 90vw;
@@ -40,6 +47,12 @@ html{
 }
 .width50{
     width: 50vw;
+}
+.fullWidth{
+    width: 100%;
+}
+.fullHeight{
+    height: 100%;
 }
 
 .centered{
@@ -58,6 +71,8 @@ html{
 #navbar{
     position: sticky;
     top: 0;
+    background-color: var(--navBarColor);
+    z-index: 10;
 }
 
 #headshotPlaceholder{
@@ -66,8 +81,20 @@ html{
     background-color: rgb(87, 87, 148);
 }
 
-.projPlaceholder{
+.projSpacer{
     width: 300px;
     height: 150px;
     background-color: rgb(77, 103, 126);
+}
+
+.linkPage{
+    position: relative;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    background-color: rgba(255, 0, 0, 0.356);
+}
+
+.projSpacer:hover .linkPage {
+  opacity: 1;
 }
