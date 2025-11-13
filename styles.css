@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root{
+    --cardBackground: black;
+    --unit: 20px;
+}
+body{
+    background-color: rgb(65, 65, 65);
+}
+*{
+    color: white;
+}
+html{
+    font-size: var(--unit);
+    font-family: "Cardo", Arial, sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.flexCol{
+    flex-direction: column;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card{
+    background-color: var(--cardBackground);
+    border-radius: 20px;
+}
+
+.width90{
+    width: 90vw;
+}
+.width75{
+    width: 75vw;
+}
+.width50{
+    width: 50vw;
+}
+
+.centered{
+    align-items: center;
+    justify-content: center;
+}
+
+.pad1U{
+    padding: var(--unit)
+}
+
+.gap{
+    gap: var(--unit)
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+}
+
+#headshotPlaceholder{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(87, 87, 148);
+}
+
+.projPlaceholder{
+    width: 300px;
+    height: 150px;
+    background-color: rgb(77, 103, 126);
+}
