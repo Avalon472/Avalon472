@@ -4,6 +4,9 @@
     --unit: 20px;
     --navBarColor: rgba(114, 107, 107, 0.418);
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: rgb(65, 65, 65);
     margin: 0px;
@@ -32,7 +35,7 @@ html{
 
 .card{
     background-color: var(--cardBackground);
-    border-radius: 20px;
+    border-radius: var(--unit);
 }
 .card:hover{
     box-shadow: 0 0 50px 2px purple;
@@ -65,7 +68,33 @@ html{
 }
 
 .gap{
-    gap: var(--unit)
+    gap: var(--unit);
+}
+.gap3{
+    gap: calc(var(--unit) * 3);
+}
+
+.textCenter{
+    text-align: center;
+}
+.leftText{
+    text-align: start;
+}
+
+.marginBottom{
+    margin-bottom: 75px;
+}
+
+.socials{
+    width: 50px;
+    height: 50px;
+    background-color: var(--cardBackground);
+    border-radius: var(--unit);
+}
+
+.spaceEven{
+    justify-content: space-evenly;
+    gap: calc(var(--unit) * 2);
 }
 
 #navbar{
@@ -79,22 +108,57 @@ html{
     width: 400px;
     height: 400px;
     background-color: rgb(87, 87, 148);
+    border-radius: calc(var(--unit) * 7);
 }
 
 .projSpacer{
-    width: 300px;
-    height: 150px;
+    width: 800px;
+    height: 400px;
     background-color: rgb(77, 103, 126);
+    position: relative;
+    border-radius: var(--unit);
 }
 
 .linkPage{
-    position: relative;
+    position: absolute;
     left: 0;
     top: 0;
     opacity: 0;
     background-color: rgba(255, 0, 0, 0.356);
+    z-index: 1;
+    border-radius: inherit;
+    gap: calc(var(--unit) * 5);
+}
+
+.logo{
+    width: 20%;
+    aspect-ratio: 1/1;
+    margin-left: calc(var(--unit) * 3);
 }
 
 .projSpacer:hover .linkPage {
   opacity: 1;
+}
+
+.inheritBorder{
+    border-radius: inherit;
+}
+
+#hero{
+    position: absolute;
+    z-index: -10;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: rgb(172, 18, 18);
+}
+
+.reveal{
+    opacity: 0;
+    transform: translateY(20px)
+}
+
+.reveal.visible{
+    opacity: 1;
+    transform: translateY(0px)
 }

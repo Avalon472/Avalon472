@@ -13,13 +13,29 @@
         <a href = "#skills">Skills</a>
         <a href = "#experience">Experience</a>
     </div>
-    <div id = "hero"  class = "flex flexCol centered">
+    <div id = "hero" class = "flex"></div>
+    <div  class = "flex flexCol centered marginBottom">
         <h1>About Me</h1>
-        <div id = "about"  class = "flex card width90 pad1U gap">
-            <div id = "headshotPlaceholder"></div>
-            <!--<img src = "" alt = "headshot">-->
-            <div class = "flex flexCol width50">
-                <h3> Michael Jakob </h3>
+        <div id = "about"  class = "flex width75 pad1U gap3 marginBottom reveal">
+            <div class = "flex flexCol gap">
+                <div id = "headshotPlaceholder">
+                    <img class = "fullHeight fullWidth inheritBorder" src = "images/a_skeleton_in_the_sky.png">
+                </div>
+                <div class = "flex spaceEven">
+                    <div class = "socials">
+                        <img class = "fullHeight fullWidth inheritBorder" src = "images/a_skeleton_in_the_sky.png">
+                    </div>
+                    <div class = "socials">
+                        <img class = "fullHeight fullWidth inheritBorder" src = "images/a_skeleton_in_the_sky.png">
+                    </div>
+                    <div class = "socials">
+                        <img class = "fullHeight fullWidth inheritBorder" src = "images/a_skeleton_in_the_sky.png">
+                    </div>
+                </div>
+
+            </div>
+            <div class = "flex flexCol width50 centered marginBottom">
+                <h3 class = "fullWidth"> Michael Jakob </h3>
                 <p> Welcome to my portfolio! My name is Michael, I'm a third-year computer science
                     student at Missouri State University. While I have yet to develop a specialty in
                     my learning journey, so far I have been focusing on full-stack development through
@@ -29,32 +45,33 @@
             </div>
         </div>
     </div>
-    <div id = "projects"  class = "flex flexCol centered gap">
+    <div id = "projects"  class = "flex flexCol centered gap marginBottom">
         <h1>Projects</h1>
-        <div class = "flex pad1U gap card width90">
+        <div class = "flex pad1U gap card width90 reveal">
             <div class = "projSpacer">
                 <div class = "linkPage flex flexCol fullWidth fullHeight centered gap">
                     <a>View Project</a>
                     <a>Read More</a>
                     <a>Github</a>
                 </div>
+                <img class = "fullHeight fullWidth inheritBorder" src = "images/a_skeleton_in_the_sky.png">
             </div>
-            <!--<img src = "" alt = "projectImage">-->
+
             <p>Project description</p>
         </div>
-        <div class = "flex pad1U gap card width90">
+        <div class = "flex pad1U gap card width90 reveal">
             <div class = "projSpacer">
                 <div class = "linkPage flex flexCol fullWidth fullHeight centered gap">
                     <a>View Project</a>
                     <a>Read More</a>
                     <a>Github</a>
                 </div>
+                <img class = "fullHeight fullWidth inheritBorder" src = "images/a_skeleton_in_the_sky.png">
             </div>
-            <!--<img src = "" alt = "projectImage2">-->
             <p>Project description 2</p>
         </div>
     </div>
-    <div id = "skills" class = "flex flexCol centered gap">
+    <div id = "skills" class = "flex flexCol centered gap marginBottom reveal">
         <h1>Skills</h1>
         <div class = "grid centered gap width75">
             <div>
@@ -86,24 +103,25 @@
             </div>
         </div>
     </div>
-    <div id = "experience" class = "flex flexCol centered gap">
+    <div id = "experience" class = "flex flexCol centered gap marginBottom">
         <h1>Experience</h1>
-        <div class = "flex gap width75 card centered pad1U">
-            <img src = "" alt = logo>
-            <div class = "flex flexCol width75 gap centered">
+        <div class = "flex gap width75 card centered pad1U reveal">
+            <img class = "logo" src = "images/a_skeleton_in_the_sky.png" alt = logo>
+            <div class = "flex flexCol width75 centered">
                 <h2>Company</h2>
                 <h3>Duration</h3>
                 <p>Description</p>
             </div>
         </div>
-        <div class = "flex gap width75 card centered pad1U">
-            <img src = "" alt = logo>
-            <div class = "flex flexCol width75 gap centered">
+        <div class = "flex gap width75 card centered pad1U reveal">
+            <img class = "logo" src = "images/a_skeleton_in_the_sky.png" alt = logo>
+            <div class = "flex flexCol width75 centered">
                 <h2>Company 2</h2>
                 <h3>Duration 2</h3>
                 <p>Description 2</p>
             </div>
         </div>
     </div>
+    <script src = "effects.js"></script>
 </body>
 </html>
