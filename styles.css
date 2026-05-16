@@ -20,7 +20,7 @@ body::before {
   left: 0;
   width: 100vw;
   height: 120vh;
-  background: url(images/watercolor_background.svg);
+  background: url(images/watercolor_background.jpg);
   will-change: transform;
   background-position: center;
   background-repeat: no-repeat;
@@ -28,7 +28,7 @@ body::before {
 }
 * {
   color: white;
-  transition: all 1s ease-in-out;
+  transition: all 0.5s ease-in-out;
   scroll-margin-top: 4rem;
 }
 html {
@@ -159,6 +159,9 @@ html {
 }
 .sectionContent {
 }
+.bottomSection {
+  margin: 0px;
+}
 
 #about {
   padding: 1rem 10%;
@@ -196,7 +199,7 @@ html {
 }
 
 .experienceLogo {
-  width: 20%;
+  width: 3rem;
   aspect-ratio: 1/1;
   margin-left: 3rem;
 }
