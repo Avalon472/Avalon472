@@ -424,7 +424,7 @@ h1 {
     width: 140px;
     height: 140px;
   }
-  .socialsLinks {
+  #socialsLinks {
     justify-content: center;
   }
   .cardRow {
