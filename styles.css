@@ -152,6 +152,7 @@ body::after {
   transition:
     border-color 0.25s,
     transform 0.5s,
+    opacity 0.5s,
     box-shadow 0.25s;
 }
 .card:hover {
@@ -404,4 +405,47 @@ h1 {
   align-items: center;
   text-align: center;
   padding: 0px 25%;
+}
+
+/* Mobile styling */
+@media (max-width: 640px) {
+  .section {
+    padding: 2.5rem 6%;
+    margin-bottom: 4rem;
+  }
+  #about {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0rem 4%;
+    margin: 2rem 1rem;
+  }
+  #aboutPhoto {
+    width: 140px;
+    height: 140px;
+  }
+  .socialsLinks {
+    justify-content: center;
+  }
+  .cardRow {
+    flex-direction: column;
+  }
+  .cardMedia.wide {
+    width: 100%;
+    min-height: 160px;
+  }
+  .cardMedia.logo {
+    width: 64px;
+  }
+  .skillCluster {
+    padding: 1.1rem;
+    flex: 0 1 80%;
+  }
+  #navbar {
+    gap: 0.75rem;
+    padding: 0 4% 0.5rem;
+  }
+  #navbar a {
+    font-size: 0.6rem;
+  }
 }
