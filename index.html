@@ -13,296 +13,357 @@
     />
   </head>
   <body>
-    <div id="navbar">
-      <a href="#">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#experience">Experience</a>
-      <a href="#contact">Contact</a>
-    </div>
-
-    <!-- About Section -->
-    <div id="about" class="section reveal">
-      <div id="aboutPhoto">
-        <img class="fullImg" src="images/headshot.jpeg" />
+    <div>
+      <div id="navbar">
+        <a href="#">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
       </div>
-      <div id="aboutContent">
-        <h1>Michael Jakob</h1>
-        <p class="muted">
-          Computer Science student at Missouri State University, graduating Fall
-          2026. I work as a Software Engineering Intern and Senior Student IT
-          Technician, and spend a good chunk of my time outside of work building
-          things and learning the infrastructure side of software development.
-          My current focus areas are CI/CD pipelines, cloud deployment,
-          self-hosting, and virtualization, with Docker and Linux as my primary
-          playgrounds right now.
-        </p>
-        <div id="socialsLinks">
-          <a class="pill" href="mailto:mjakob478@gmail.com">Email</a>
-          <a
-            class="pill"
-            href="https://github.com/Avalon472"
-            target="_blank"
-            rel="noopener"
-            >GitHub</a
-          >
-          <a
-            class="pill"
-            href="https://linkedin.com/in/michael-jakob-374819337"
-            target="_blank"
-            rel="noopener"
-            >LinkedIn</a
-          >
-        </div>
-      </div>
-    </div>
 
-    <div id="scrollIndicator">
-      <div></div>
-      <div></div>
-    </div>
-
-    <!-- Projects Section -->
-    <div id="projects" class="section">
-      <p class="sectionHeader reveal">Projects</p>
-      <div class="card cardRow reveal">
-        <div class="cardMedia wide">
-          <img
-            class="fullImg"
-            src="images/Cooklet.png"
-            alt="Recipe application screenshot"
-          />
-          <div class="mediaOverlay">
-            <!-- <a class="pill" href="#" target="_blank" rel="noopener"
-              >View Live</a
-            > -->
-            <a
-              class="pill"
-              href="https://github.com/Avalon472/Cooklet-Frontend"
-              target="_blank"
-              rel="noopener"
-              >GitHub (Frontend)</a
-            >
-            <a
-              class="pill"
-              href="https://github.com/Avalon472/Cooklet-Backend"
-              target="_blank"
-              rel="noopener"
-              >GitHub (Backend)</a
-            >
-          </div>
+      <!-- About Section -->
+      <div id="about" class="section reveal">
+        <div id="aboutPhoto">
+          <img class="fullImg" src="images/headshot.jpeg" />
         </div>
-        <div class="cardBody">
-          <h3>Cooklet - Recipe Application</h3>
+        <div id="aboutContent">
+          <h1>Michael Jakob</h1>
           <p class="muted">
-            Full-stack recipe app with a Kotlin/Jetpack Compose Android frontend
-            and a TypeScript/Express.js REST API. Integrates the Spoonacular API
-            with MongoDB-backed caching and middleware that enforces per-day API
-            quotas at the database layer.
+            Computer Science student at Missouri State University, graduating
+            Fall 2026. I work as a Software Engineering Intern and Senior
+            Student IT Technician, and spend a good chunk of my time outside of
+            work building things and learning the infrastructure side of
+            software development. My current focus areas are CI/CD pipelines,
+            cloud deployment, self-hosting, and virtualization, with Docker and
+            Linux as my primary playgrounds right now.
           </p>
-          <div class="tags">
-            <span class="filledPill">Kotlin</span>
-            <span class="filledPill">Jetpack Compose</span>
-            <span class="filledPill">TypeScript</span>
-            <span class="filledPill">Express.js</span>
-            <span class="filledPill">MongoDB</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="card cardRow reveal">
-        <div class="cardMedia wide">
-          <img
-            class="fullImg"
-            src="images/verseVault.png"
-            alt="Recipe application screenshot"
-          />
-          <div class="mediaOverlay">
-            <!-- <a class="pill" href="#" target="_blank" rel="noopener"
-              >View Live</a
-            > -->
+          <div id="socialsLinks">
+            <a class="pill" href="mailto:mjakob478@gmail.com">Email</a>
             <a
               class="pill"
-              href="https://github.com/Avalon472/VerseVault"
+              href="https://github.com/Avalon472"
               target="_blank"
               rel="noopener"
               >GitHub</a
             >
+            <a
+              class="pill"
+              href="https://linkedin.com/in/michael-jakob-374819337"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
           </div>
         </div>
-        <div class="cardBody">
-          <div>
-            <h3>VerseVault - Poem Reader</h3>
+      </div>
+
+      <div id="scrollIndicator">
+        <div></div>
+        <div></div>
+      </div>
+
+      <!-- Projects Section -->
+      <div id="projects" class="section">
+        <p class="sectionHeader reveal">Projects</p>
+        <div class="card cardRow reveal">
+          <div class="cardMedia wide">
+            <img
+              class="fullImg"
+              src="images/Cooklet.png"
+              alt="Recipe application screenshot"
+            />
+            <div class="mediaOverlay">
+              <!-- <a class="pill" href="#" target="_blank" rel="noopener"
+              >View Live</a
+            > -->
+              <a
+                class="pill"
+                href="https://github.com/Avalon472/Cooklet-Frontend"
+                target="_blank"
+                rel="noopener"
+                >GitHub (Frontend)</a
+              >
+              <a
+                class="pill"
+                href="https://github.com/Avalon472/Cooklet-Backend"
+                target="_blank"
+                rel="noopener"
+                >GitHub (Backend)</a
+              >
+            </div>
+          </div>
+          <div class="cardBody">
+            <h3>Cooklet - Recipe Application</h3>
             <p class="muted">
-              Flask web app built on the PoetryDB REST API. Browse poems by
-              author, search by title, and save favorites to a local SQLite
-              database.
+              Full-stack recipe app with a Kotlin/Jetpack Compose Android
+              frontend and a TypeScript/Express.js REST API. Integrates the
+              Spoonacular API with MongoDB-backed caching and middleware that
+              enforces per-day API quotas at the database layer.
             </p>
+            <div class="tags">
+              <span class="filledPill">Kotlin</span>
+              <span class="filledPill">Jetpack Compose</span>
+              <span class="filledPill">TypeScript</span>
+              <span class="filledPill">Express.js</span>
+              <span class="filledPill">MongoDB</span>
+            </div>
           </div>
-          <div class="tags">
-            <span class="filledPill">Python</span>
-            <span class="filledPill">Flask</span>
-            <span class="filledPill">SQLite</span>
+        </div>
+
+        <div class="card cardRow reveal">
+          <div class="cardMedia wide">
+            <img
+              class="fullImg"
+              src="images/verseVault.png"
+              alt="Recipe application screenshot"
+            />
+            <div class="mediaOverlay">
+              <!-- <a class="pill" href="#" target="_blank" rel="noopener"
+              >View Live</a
+            > -->
+              <a
+                class="pill"
+                href="https://github.com/Avalon472/VerseVault"
+                target="_blank"
+                rel="noopener"
+                >GitHub</a
+              >
+            </div>
+          </div>
+          <div class="cardBody">
+            <div>
+              <h3>VerseVault - Poem Reader</h3>
+              <p class="muted">
+                Flask web app built on the PoetryDB REST API. Browse poems by
+                author, search by title, and save favorites to a local SQLite
+                database.
+              </p>
+            </div>
+            <div class="tags">
+              <span class="filledPill">Python</span>
+              <span class="filledPill">Flask</span>
+              <span class="filledPill">SQLite</span>
+            </div>
           </div>
         </div>
       </div>
+
+      <!-- Skills Section -->
+      <div id="skills" class="section">
+        <p class="sectionHeader reveal">Skills</p>
+        <div class="skillsGrid">
+          <div class="card skillCluster reveal">
+            <p class="skillHeader">Languages</p>
+            <ul>
+              <li>Python</li>
+              <li>JavaScript / TypeScript</li>
+              <li>Kotlin</li>
+              <li>C++</li>
+              <li>SQL</li>
+              <li>PowerShell</li>
+              <li>HTML / CSS</li>
+            </ul>
+          </div>
+
+          <div class="card skillCluster reveal">
+            <p class="skillHeader">Frameworks & Libraries</p>
+            <ul>
+              <li>React</li>
+              <li>Node.js / Express.js</li>
+              <li>Flask</li>
+              <li>Mongoose</li>
+              <li>Tailwind CSS</li>
+              <li>Jest / Mocha</li>
+              <li>Pandas</li>
+            </ul>
+          </div>
+
+          <div class="card skillCluster reveal">
+            <p class="skillHeader">Developer Tools</p>
+            <ul>
+              <li>Docker</li>
+              <li>Postman</li>
+              <li>MongoDB Atlas</li>
+              <li>Git/Github</li>
+              <li>VS Code</li>
+              <li>Ollama</li>
+              <li>Claude</li>
+              <li>OpenCode</li>
+            </ul>
+          </div>
+
+          <div class="card skillCluster reveal">
+            <p class="skillHeader">DevOps & Automation</p>
+            <ul>
+              <li>Render</li>
+              <li>SCCM</li>
+              <li>Microsoft Autopilot</li>
+              <li>Github Actions</li>
+              <li>Power Automate</li>
+            </ul>
+          </div>
+
+          <div class="card skillCluster reveal">
+            <p class="skillHeader">Platforms & Systems</p>
+            <ul>
+              <li>Microsoft Intune</li>
+              <li>Entra ID</li>
+              <li>Microsoft 365</li>
+              <li>Active Directory</li>
+              <li>Ubuntu Server</li>
+              <li>TeamDynamix</li>
+              <li>Linux (Ubuntu, Fedora)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Experience Section -->
+      <div id="experience" class="section">
+        <p class="sectionHeader reveal">Experience</p>
+
+        <div class="card cardRow reveal">
+          <img
+            class="cardMedia logo"
+            src="images/cityUtilities.png"
+            alt="logo"
+          />
+          <div class="cardBody">
+            <p>City Utilities of Springfield</p>
+            <p class="accented">IT Developer Intern</p>
+            <p class="muted">September 2026 - Current</p>
+            <ul class="jobBullets">
+              <li>
+                Deliver feature requests for customer service teams across
+                multiple internal .NET applications, creating new views and
+                features with C#, WPF/XAML, Prism, and MVVM practices.
+              </li>
+              <li>
+                Extending existing user views with new data fields and
+                underlying SQL server database logic, turning internal team
+                requests usable tooling.
+              </li>
+              <li>
+                Maintaining a batch tax exemption workflow for an internal
+                customer information tool, pairing a custom PL/SQL procedure
+                with a Prism MVVM-style view to apply a single exemption across
+                selected records.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card cardRow reveal">
+          <img class="cardMedia logo" src="images/msu.png" alt="logo" />
+          <div class="cardBody">
+            <p>Missouri State University</p>
+            <p class="accented">Senior Student Technician</p>
+            <p class="muted">August 2023 - Current</p>
+            <ul class="jobBullets">
+              <li>
+                Diagnosing and resolving user issues with university software,
+                Microsoft 365, and end-user devices through phone, BeyondTrust
+                Remote Console, and in-person support for students and faculty.
+              </li>
+              <li>
+                Assisting with Entra-managed user credentials, providing tier 1
+                support and routing for university departments.
+              </li>
+              <li>
+                Resolve 25+ tickets weekly in TeamDynamix, maintaining and
+                developing documentation on support standards.
+              </li>
+              <li>
+                Participating in interviews and training 3-5 new student workers
+                per semester, teaching support procedures and customer service
+                standards.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card cardRow reveal">
+          <img class="cardMedia logo" src="images/dmp.jpg" alt="logo" />
+          <div class="cardBody">
+            <p>Digital Monitoring Products</p>
+            <p class="accented">Software Engineering Intern</p>
+            <p class="muted">December 2025 - September 2026</p>
+            <ul class="jobBullets">
+              <li>
+                Translated Figma designs into reusable, responsive React
+                components for DMP's security badge-printing feature, delivering
+                UI features used in a live commercial product following agile
+                development and methodologies.
+              </li>
+              <li>
+                Contributed to a Jira delivery-tracked engineering environment
+                that emphasized maintainable, well-documented code, GitHub
+                version control, AI-assisted code reviews, and a GitHub Actions
+                CI/CD pipeline aligned with modern workflows.
+              </li>
+              <li>
+                Built test coverage for new and existing application code,
+                reverse-engineering expected behavior to design 150+ test cases
+                in Jest and Mocha using the page object model (POM).
+              </li>
+              <li>
+                Authored Appium and WebdriverIO-based mobile test suites for iOS
+                and Android mobile clients with no prior automation coverage,
+                surfacing 10+ existing defects in the live releases.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card cardRow reveal">
+          <img class="cardMedia logo" src="images/schreiber.png" alt="logo" />
+          <div class="cardBody">
+            <p>Schreiber Foods</p>
+            <p class="accented">Plant Systems Intern</p>
+            <p class="muted">May 2025 - October 2025</p>
+            <ul class="jobBullets">
+              <li>
+                Provisioned and configured 60+ devices using SCCM and Microsoft
+                Autopilot within a 1000+ endpoint environment, coordinated
+                deployments and desktop support for 100+ on-site and remote
+                employees
+              </li>
+              <li>
+                Assisted users throughout Windows 11 migration and deployment
+                workflows, using PowerBI and Excel-based reporting tools to
+                support device tracking and operational reporting, and VNC
+                viewer for remote update assistance.
+              </li>
+              <li>
+                Contributed to deployment and documentation of physical network
+                infrastructure and VLAN port configurations for a newly
+                established distribution center in Springfield, performed
+                on-site maintenance and support for endpoints.
+              </li>
+              <li>
+                Authored standard operating procedures for printing and Windows
+                update workflows while delivering weekly reporting on global
+                device health and 50+ active support items.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section reveal">
+        <p class="sectionHeader">Contact</p>
+        <p class="muted">
+          Finishing my CS degree at Missouri State in Fall 2026 and actively
+          looking for new grad roles in software engineering, DevOps, and IT
+          systems. Feel free to reach out.
+        </p>
+        <a class="filledPill large" href="mailto:mjakob478@gmail.com"
+          >Get in touch</a
+        >
+      </section>
     </div>
-
-    <!-- Skills Section -->
-    <div id="skills" class="section">
-      <p class="sectionHeader reveal">Skills</p>
-      <div class="skillsGrid">
-        <div class="card skillCluster reveal">
-          <p class="skillHeader">Languages</p>
-          <ul>
-            <li>Python</li>
-            <li>JavaScript / TypeScript</li>
-            <li>Kotlin</li>
-            <li>C++</li>
-            <li>SQL</li>
-            <li>PowerShell</li>
-            <li>HTML / CSS</li>
-          </ul>
-        </div>
-
-        <div class="card skillCluster reveal">
-          <p class="skillHeader">Frameworks & Libraries</p>
-          <ul>
-            <li>React</li>
-            <li>Node.js / Express.js</li>
-            <li>Flask</li>
-            <li>Mongoose</li>
-            <li>Tailwind CSS</li>
-            <li>Jest / Mocha</li>
-            <li>Pandas</li>
-          </ul>
-        </div>
-
-        <div class="card skillCluster reveal">
-          <p class="skillHeader">Developer Tools</p>
-          <ul>
-            <li>Docker</li>
-            <li>Postman</li>
-            <li>MongoDB Atlas</li>
-            <li>Git/Github</li>
-            <li>VS Code</li>
-            <li>Ollama</li>
-            <li>Claude</li>
-            <li>OpenCode</li>
-          </ul>
-        </div>
-
-        <div class="card skillCluster reveal">
-          <p class="skillHeader">DevOps & Automation</p>
-          <ul>
-            <li>Render</li>
-            <li>SCCM</li>
-            <li>Microsoft Autopilot</li>
-            <li>Github Actions</li>
-            <li>Power Automate</li>
-          </ul>
-        </div>
-
-        <div class="card skillCluster reveal">
-          <p class="skillHeader">Platforms & Systems</p>
-          <ul>
-            <li>Microsoft Intune</li>
-            <li>Entra ID</li>
-            <li>Microsoft 365</li>
-            <li>Active Directory</li>
-            <li>Ubuntu Server</li>
-            <li>TeamDynamix</li>
-            <li>Linux (Ubuntu, Fedora)</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <!-- Experience Section -->
-    <div id="experience" class="section">
-      <p class="sectionHeader reveal">Experience</p>
-      <div class="card cardRow reveal">
-        <img class="cardMedia logo" src="images/dmp.jpg" alt="logo" />
-        <div class="cardBody">
-          <p>Digital Monitoring Products</p>
-          <p class="accented">Software Engineering Intern</p>
-          <p class="muted">December 2025 - Present</p>
-          <ul class="jobBullets">
-            <li>
-              Helped develop the automated test suite for a cross-platform
-              product, including unit and integration tests with Jest and Mocha,
-              to covering the Virtual Keypad browser app and iPhone client.
-            </li>
-            <li>
-              Built React components for a badge-printing application from Figma
-              designs.
-            </li>
-            <li>
-              Work within an agile team. Active involvement in standups, sprint
-              planning, and code review feeding into a CI/CD pipeline on every
-              PR.
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="card cardRow reveal">
-        <img class="cardMedia logo" src="images/schreiber.png" alt="logo" />
-        <div class="cardBody">
-          <p>Schreiber Foods</p>
-          <p class="accented">Plant Systems Intern</p>
-          <p class="muted">May 2025 - October 2025</p>
-          <ul class="jobBullets">
-            <li>
-              Provisioned 50+ devices via SCCM and Microsoft Autopilot in a
-              1,000+ endpoint environment.
-            </li>
-            <li>
-              Coordinated Windows 11 24H2 upgrades across 300+ devices and
-              authored SOPs for printing and update processes.
-            </li>
-            <li>
-              Automated Excel-based device reporting with PowerShell; delivered
-              weekly status reports to stakeholders.
-            </li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="card cardRow reveal">
-        <img class="cardMedia logo" src="images/msu.png" alt="logo" />
-        <div class="cardBody">
-          <p>Missouri State University</p>
-          <p class="accented">Senior Student Technician</p>
-          <p class="muted">August 2023 - Current</p>
-          <ul class="jobBullets">
-            <li>
-              Resolve 25+ tickets/week via BeyondTrust remote support and
-              in-person troubleshooting over Office 365, university software,
-              and end-user devices.
-            </li>
-            <li>
-              Coordinate Entra-managed user licensing incidents across
-              departments.
-            </li>
-            <li>Interview and onboard 3-5 student workers per semester.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-
-    <!-- Contact Section -->
-    <section id="contact" class="section reveal">
-      <p class="sectionHeader">Contact</p>
-      <p class="muted">
-        Finishing my CS degree at Missouri State in Fall 2026 and actively
-        looking for new grad roles in software engineering, DevOps, and IT
-        systems. Feel free to reach out.
-      </p>
-      <a class="filledPill large" href="mailto:mjakob478@gmail.com"
-        >Get in touch</a
-      >
-    </section>
 
     <script src="effects.js"></script>
   </body>
